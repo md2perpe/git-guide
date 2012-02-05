@@ -32,7 +32,7 @@
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         <p class="meta">
             av <a href="http://www.twitter.com/rogerdudler">Roger Dudler</a>
-            <br />ära till <a href="http://www.twitter.com/tfnico">@tfnico</a>, <a href="http://www.twitter.com/fhd">@fhd</a> och <a href="http://www.namics.com">Namics</a><br />
+            <br />tack till <a href="http://www.twitter.com/tfnico">@tfnico</a>, <a href="http://www.twitter.com/fhd">@fhd</a> och <a href="http://www.namics.com">Namics</a><br />
             denna guide på <a href="index.de.html">deutsch</a>, <a href="index.es.html">español</a>, <a href="index.fr.html">français</a>, <a href="index.it.html">italiano</a>, <a href="index.nl.html">nederlands</a>, <a href="index.pt_BR.html">português</a>, <a href="index.ru.html">русский</a>, <a href="index.sv.html">svenska</a>, <a href="index.ja.html">日本語</a>, <a href="index.zh.html">中文</a><br />
             vänligen rapportera fel till <a href="https://github.com/rogerdudler/git-guide/issues">github</a>
         </p>
@@ -41,44 +41,44 @@
     <!-- setup -->
     <a name="setup"></a>
     <div class="scrollblock block-setup">
-        <h2>setup</h2>
+        <h2>installation</h2>
         <p>
-            <a href="http://code.google.com/p/git-osx-installer/downloads/list?can=3">Download git for OSX</a>
+            <a href="http://code.google.com/p/git-osx-installer/downloads/list?can=3">Ladda ned git för OSX</a>
         </p>
         <p>
-            <a href="http://code.google.com/p/msysgit/downloads/list?can=3">Download git for Windows</a>
+            <a href="http://code.google.com/p/msysgit/downloads/list?can=3">Ladda ned git för Windows</a>
         </p>
         <p>
-            <a href="http://book.git-scm.com/2_installing_git.html">Download git for Linux</a>
+            <a href="http://book.git-scm.com/2_installing_git.html">Ladda ned git för Linux</a>
         </p>
     </div>
     <a name="create"></a>
     <div class="scrollblock block-create">
-        <h2>create a new repository</h2>
+        <h2>skapa en ny repository</h2>
         <p>
-            create a new directory, open it and perform a <br />
+            skapa en ny katalog, öppna den och kör <br />
             <code>git init</code><br />
-            to create a new git repository.
+            för att skapa ett nytt git-repository.
         </p>
     </div>
     <a name="checkout"></a>
     <div class="scrollblock block-checkout">
-        <h2>checkout a repository</h2>
+        <h2>hämta ut en repository</h2>
         <p>
-            create a working copy of a local repository by running the command<br />
-            <code>git clone /path/to/repository</code><br />
-            when using a remote server, your command will be<br />
-            <code>git clone username@host:/path/to/repository</code>
+            skapa en arbetskopia av en lokal repository genom att köra kommandot<br />
+            <code>git clone /sökväg/till/repository</code><br />
+            när du använder en fjärrserver, blir ditt kommando<br />
+            <code>git clone username@host:/sökväg/till/repository</code>
         </p>
     </div>
     <a name="trees"></a>
     <div class="scrollblock block-trees">
-        <h2>workflow</h2>
+        <h2>arbetsflöde</h2>
         <p>
-            your local repository consists of three "trees" maintained by git.
-            the first one is your <code>Working Directory</code> which holds the actual files.
-            the second one is the <code>Index</code> which acts as a staging area and
-            finally the <code>HEAD</code> which points to the last commit you've made.
+            din lokala repository består av tre "träd" hanterade av git.
+            det första är din <code>Arbetskatalog</code> som innehåller själva filerna.
+            det andra är <code>Index</code> som fungerar som ett avlastningsområde och
+            slutligen <code>HEAD</code> som pekar på din senaste commit.
         </p>
         <img src="img/trees.png" alt="" />
     </div>
