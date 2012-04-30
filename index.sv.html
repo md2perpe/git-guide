@@ -110,19 +110,20 @@
     </div>
     <a name="branching"></a>
     <div class="scrollblock block-branching">
-        <h2>branching</h2>
+        <h2>förgrening</h2>
         <p>
-            Branches are used to develop features isolated from each other. The <i>master</i> branch is the "default" branch when you create a repository. Use other branches for development and merge them back to the master branch upon completion.
+            Grenar (branch) används för att utveckla funktionaliteter isolerade från varandra.   
+            Grenen <i>master</i> är standardgrenen när du skapar en repository. Använd andra grenar för utveckling och sammanfoga dem tillbaka till master när du är klar.
         </p>
         <img src="img/branches.png" alt="" />
         <p>
-            create a new branch named "feature_x" and switch to it using<br />
+            skapa en ny gren kallad "feature_x" och byt till den genom<br />
             <code>git checkout -b feature_x</code><br />
-            switch back to master<br />
+            byt tillbaka till master<br />
             <code>git checkout master</code><br />
-            and delete the branch again<br />
+            och radera grenen igen<br />
             <code>git branch -d feature_x</code><br />
-            a branch is <i>not available to others</i> unless you push the branch to your remote repository<br />
+            en gren är <i>inte tillgänglig för andra</i> förrän du har skickat upp ändringarna till din fjärrepository<br />
             <code>git push origin &lt;branch&gt;</code>
         </p>
     </div>
